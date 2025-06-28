@@ -4273,6 +4273,10 @@ begin
             fpRight: SetActiveFrame(fpLeft);
             else     SetActiveFrame(fpLeft);
           end;
+        end
+        else
+        begin
+          QuickViewPanel.SetFocus();
         end;
         Key := 0;
       end;

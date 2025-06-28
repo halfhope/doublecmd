@@ -58,6 +58,8 @@ type
   public
     constructor Create(TheOwner: TComponent; aParent: TFileViewPage); reintroduce;
     destructor Destroy; override;
+
+    procedure setFocus();
   end;
 
 procedure QuickViewShow(aFileViewPage: TFileViewPage; aFileView: TFileView);
@@ -129,6 +131,11 @@ begin
   FFileSource:= nil;
   FFileView.SetFocus;
   inherited Destroy;
+end;
+
+procedure TQuickViewPanel.setFocus();
+begin
+  FViewer.SetFocus();
 end;
 
 procedure TQuickViewPanel.CreateViewer(aFileView: TFileView);
