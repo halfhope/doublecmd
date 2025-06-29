@@ -62,7 +62,7 @@ uses
   uFileSource, fModView, Types, uThumbnails, uFormCommands, uOSForms,Clipbrd,
   uExifReader, KASStatusBar, SynEdit, uShowForm, uRegExpr, uRegExprU,
   Messages, fEditSearch, uMasks, uSearchTemplate, uFileSourceOperation,
-  uFileSourceCalcStatisticsOperation, KASComCtrls, LCLVersion;
+  uFileSourceCalcStatisticsOperation, KASComCtrls, LCLVersion, uKeyboard;
 
 type
 
@@ -2748,7 +2748,27 @@ end;
 
 procedure TfrmViewer.SynEditKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
+var
+  ShiftEx: TShiftState;
 begin
+  ShiftEx := GetKeyShiftStateEx;
+  if (ssAlt in ShiftEx) then
+  begin
+    case Key of
+      VK_F:
+        begin
+             gFirstTextSearch := true;
+             DoSearchCode(True, False);
+        end;
+      VK_F3:
+        begin
+             gFirstTextSearch := false;
+             DoSearchCode(True, False);
+        end;
+    end;
+    Key := 0;
+  end;
+
   if (not gShowCaret) and (Key in [VK_UP, VK_DOWN, VK_PRIOR, VK_NEXT, VK_LEFT, VK_RIGHT]) then
   begin
     case Key of
