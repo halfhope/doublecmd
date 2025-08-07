@@ -1087,6 +1087,16 @@ msgstr "另存新檔 (&A)..."
 msgid "Save As"
 msgstr "另存新檔"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "放大"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "縮小"
+
 #: tfrmeditor.caption
 msgctxt "tfrmeditor.caption"
 msgid "Editor"
@@ -2490,6 +2500,16 @@ msgstr "從檔案載入所選項目 (&L)..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "从档案载入分頁 (&L)"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "放大"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "縮小"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7086,6 +7106,11 @@ msgstr ""
 msgid "By clic&king on icon"
 msgstr ""
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr "使用 Ctrl + 滾輪縮放"
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7099,6 +7124,11 @@ msgstr "滾輪"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "選取項目"
+
+#: tfrmoptionsmouse.gbzoom.caption
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "縮放"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgctxt "TFRMOPTIONSMOUSE.LBLMOUSEMODE.CAPTION"
@@ -8538,7 +8568,7 @@ msgstr ""
 
 #: tfrmquicksearch.sbdiacritics.hint
 msgid "Diacritics and ligatures"
-msgstr ""
+msgstr "變音和連字"
 
 #: tfrmquicksearch.sbdirectories.caption
 msgid "D"
@@ -9721,7 +9751,6 @@ msgid "Stretch only large"
 msgstr ""
 
 #: tfrmviewer.actundo.caption
-#, fuzzy
 msgctxt "tfrmviewer.actundo.caption"
 msgid "Undo"
 msgstr "復原"
@@ -9736,11 +9765,11 @@ msgid "&Wrap text"
 msgstr ""
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
-msgstr ""
+msgstr "縮放"
 
 #: tfrmviewer.actzoomin.caption
-#, fuzzy
 msgctxt "tfrmviewer.actzoomin.caption"
 msgid "Zoom In"
 msgstr "放大"
@@ -9748,10 +9777,9 @@ msgstr "放大"
 #: tfrmviewer.actzoomin.hint
 msgctxt "tfrmviewer.actzoomin.hint"
 msgid "Zoom In"
-msgstr ""
+msgstr "放大"
 
 #: tfrmviewer.actzoomout.caption
-#, fuzzy
 msgctxt "tfrmviewer.actzoomout.caption"
 msgid "Zoom Out"
 msgstr "縮小"
@@ -9759,10 +9787,9 @@ msgstr "縮小"
 #: tfrmviewer.actzoomout.hint
 msgctxt "tfrmviewer.actzoomout.hint"
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: tfrmviewer.btncuttuimage.hint
-#, fuzzy
 msgid "Crop"
 msgstr "裁剪"
 
@@ -9790,10 +9817,9 @@ msgid "Paint"
 msgstr "繪圖"
 
 #: tfrmviewer.btnpenwidth.caption
-#, fuzzy
 msgctxt "tfrmviewer.btnpenwidth.caption"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: tfrmviewer.btnprevgifframe.hint
 msgid "Previous Frame"
@@ -9808,7 +9834,6 @@ msgid "Resize"
 msgstr "調整大小"
 
 #: tfrmviewer.btnslideshow.caption
-#, fuzzy
 msgctxt "tfrmviewer.btnslideshow.caption"
 msgid "Slide Show"
 msgstr "投影片放映"
@@ -9847,7 +9872,6 @@ msgid "&Image"
 msgstr "圖片(&I)"
 
 #: tfrmviewer.mipen.caption
-#, fuzzy
 msgctxt "tfrmviewer.mipen.caption"
 msgid "Pen"
 msgstr "鉛筆"
@@ -9857,7 +9881,6 @@ msgid "Rect"
 msgstr ""
 
 #: tfrmviewer.mirotate.caption
-#, fuzzy
 msgid "Rotate"
 msgstr "旋轉"
 
@@ -9877,7 +9900,6 @@ msgid "Plugins"
 msgstr "插件"
 
 #: tfrmviewoperations.btnstartpause.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.btnstartpause.caption"
 msgid "&Start"
 msgstr "開始 (&S)"
@@ -9887,7 +9909,6 @@ msgid "S&top"
 msgstr ""
 
 #: tfrmviewoperations.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.caption"
 msgid "File operations"
 msgstr "檔案操作"
@@ -9901,19 +9922,16 @@ msgid "&Use \"drag && drop\" to move operations between queues"
 msgstr ""
 
 #: tfrmviewoperations.mnucanceloperation.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnucanceloperation.caption"
 msgid "Cancel"
 msgstr "取消"
 
 #: tfrmviewoperations.mnucancelqueue.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnucancelqueue.caption"
 msgid "Cancel"
 msgstr "取消"
 
 #: tfrmviewoperations.mnunewqueue.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnunewqueue.caption"
 msgid "New queue"
 msgstr "新增佇列"
@@ -9932,7 +9950,6 @@ msgid "Put last in queue"
 msgstr ""
 
 #: tfrmviewoperations.mnuqueue.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue.caption"
 msgid "Queue"
 msgstr "佇列"
@@ -9942,31 +9959,26 @@ msgid "Out of queue"
 msgstr ""
 
 #: tfrmviewoperations.mnuqueue1.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue1.caption"
 msgid "Queue 1"
 msgstr "佇列 1"
 
 #: tfrmviewoperations.mnuqueue2.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue2.caption"
 msgid "Queue 2"
 msgstr "佇列 2"
 
 #: tfrmviewoperations.mnuqueue3.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue3.caption"
 msgid "Queue 3"
 msgstr "佇列 3"
 
 #: tfrmviewoperations.mnuqueue4.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue4.caption"
 msgid "Queue 4"
 msgstr "佇列 4"
 
 #: tfrmviewoperations.mnuqueue5.caption
-#, fuzzy
 msgctxt "tfrmviewoperations.mnuqueue5.caption"
 msgid "Queue 5"
 msgstr "佇列 5"
@@ -9981,19 +9993,16 @@ msgid "&Pause all"
 msgstr ""
 
 #: tgiocopymoveoperationoptionsui.cbfollowlinks.caption
-#, fuzzy
 msgctxt "tgiocopymoveoperationoptionsui.cbfollowlinks.caption"
 msgid "Fo&llow links"
 msgstr "允許連結 (&L)"
 
 #: tgiocopymoveoperationoptionsui.lbldirectoryexists.caption
-#, fuzzy
 msgctxt "tgiocopymoveoperationoptionsui.lbldirectoryexists.caption"
 msgid "When dir&ectory exists"
 msgstr "當資料夾存在時 (&E)"
 
 #: tgiocopymoveoperationoptionsui.lblfileexists.caption
-#, fuzzy
 msgctxt "tgiocopymoveoperationoptionsui.lblfileexists.caption"
 msgid "When file exists"
 msgstr "當檔案存在時"
@@ -10004,13 +10013,11 @@ msgid "When file exists"
 msgstr "當檔案存在時"
 
 #: ttfrmconfirmcommandline.btncancel.caption
-#, fuzzy
 msgctxt "ttfrmconfirmcommandline.btncancel.caption"
 msgid "&Cancel"
 msgstr "取消 (&C)"
 
 #: ttfrmconfirmcommandline.btnok.caption
-#, fuzzy
 msgctxt "ttfrmconfirmcommandline.btnok.caption"
 msgid "&OK"
 msgstr "確定 (&O)"
@@ -10020,7 +10027,6 @@ msgid "Command line:"
 msgstr ""
 
 #: ttfrmconfirmcommandline.lbleparameters.editlabel.caption
-#, fuzzy
 msgctxt "ttfrmconfirmcommandline.lbleparameters.editlabel.caption"
 msgid "Parameters:"
 msgstr "參數:"
@@ -10030,13 +10036,11 @@ msgid "Start path:"
 msgstr ""
 
 #: twcxarchivecopyoperationoptionsui.btnconfig.caption
-#, fuzzy
 msgctxt "twcxarchivecopyoperationoptionsui.btnconfig.caption"
 msgid "Con&figure"
 msgstr "設置 (&F)"
 
 #: twcxarchivecopyoperationoptionsui.cbencrypt.caption
-#, fuzzy
 msgctxt "twcxarchivecopyoperationoptionsui.cbencrypt.caption"
 msgid "Encr&ypt"
 msgstr "加密 (&Y)"
@@ -10047,7 +10051,6 @@ msgid "When file exists"
 msgstr "當檔案存在時"
 
 #: twfxplugincopymoveoperationoptionsui.cbcopytime.caption
-#, fuzzy
 msgctxt "twfxplugincopymoveoperationoptionsui.cbcopytime.caption"
 msgid "Copy d&ate/time"
 msgstr "複製日期/時間 (&A)"
@@ -10057,7 +10060,6 @@ msgid "Work in background (separate connection)"
 msgstr "執行在背景模式 (單獨連接)"
 
 #: twfxplugincopymoveoperationoptionsui.lblfileexists.caption
-#, fuzzy
 msgctxt "TWFXPLUGINCOPYMOVEOPERATIONOPTIONSUI.LBLFILEEXISTS.CAPTION"
 msgid "When file exists"
 msgstr "當檔案存在時"
@@ -10107,13 +10109,11 @@ msgid "Date taken"
 msgstr ""
 
 #: uexifreader.rsimageheight
-#, fuzzy
 msgctxt "uexifreader.rsimageheight"
 msgid "Height"
 msgstr "高度"
 
 #: uexifreader.rsimagewidth
-#, fuzzy
 msgctxt "uexifreader.rsimagewidth"
 msgid "Width"
 msgstr "寬度"
@@ -10366,13 +10366,11 @@ msgid " Modifies: "
 msgstr ""
 
 #: ulng.rsdiffshow
-#, fuzzy
 msgctxt "ulng.rsdiffshow"
 msgid "&Show"
 msgstr "顯示 (&S)"
 
 #: ulng.rsdifftextdifferenceencoding
-#, fuzzy
 msgctxt "ulng.rsdifftextdifferenceencoding"
 msgid "Encoding"
 msgstr "編碼"
@@ -10426,16 +10424,12 @@ msgid "&Continue"
 msgstr "繼續 (&C)"
 
 #: ulng.rsdlgbuttoncopyinto
-#, fuzzy
-#| msgid "Copy &Into"
 msgid "&Merge"
-msgstr "複製進去 (&I)"
+msgstr "合併 (&M)"
 
 #: ulng.rsdlgbuttoncopyintoall
-#, fuzzy
-#| msgid "Copy Into &All"
 msgid "Mer&ge All"
-msgstr "全部複製進去 (&A)"
+msgstr "全部合併 (&G)"
 
 #: ulng.rsdlgbuttonexitprogram
 msgid "E&xit program"
@@ -10487,8 +10481,6 @@ msgid "Overwrite All S&maller"
 msgstr ""
 
 #: ulng.rsdlgbuttonrename
-#, fuzzy
-#| msgid "Rename"
 msgctxt "ulng.rsdlgbuttonrename"
 msgid "R&ename"
 msgstr "重新命名 (&E)"
@@ -10701,10 +10693,8 @@ msgid "Ask;Overwrite;Skip"
 msgstr ""
 
 #: ulng.rsfileopdirectoryexistsoptions
-#, fuzzy
-#| msgid "Ask;Overwrite;Copy into;Skip"
 msgid "Ask;Merge;Skip"
-msgstr "詢問;覆蓋;複製進去;略過"
+msgstr "詢問;合併;略過"
 
 #: ulng.rsfileopfileexistsoptions
 msgid "Ask;Overwrite;Overwrite Older;Skip"
@@ -10874,12 +10864,12 @@ msgid "Viewer&Book Font"
 msgstr "檢視器閱讀模式字型 (&B)"
 
 #: ulng.rsfreemsg
-#, object-pascal-format, fuzzy
+#, object-pascal-format
 msgid "%s of %s free"
-msgstr "可用 %s，容量 %s"
+msgstr "可用 %s，總容量 %s"
 
 #: ulng.rsfreemsgshort
-#, object-pascal-format, fuzzy
+#, object-pascal-format
 msgid "%s free"
 msgstr "%s 可用"
 
@@ -10988,13 +10978,11 @@ msgid "Edit Comment Dialog"
 msgstr ""
 
 #: ulng.rshotkeycategoryeditor
-#, fuzzy
 msgctxt "ulng.rshotkeycategoryeditor"
 msgid "Editor"
 msgstr "編輯器"
 
 #: ulng.rshotkeycategoryfindfiles
-#, fuzzy
 msgctxt "ulng.rshotkeycategoryfindfiles"
 msgid "Find files"
 msgstr "尋找檔案"
@@ -11240,15 +11228,11 @@ msgid "HorzSplit"
 msgstr "水平分隔"
 
 #: ulng.rsmfstbiiclouddrivertips
-#, fuzzy
-#| msgid "iCloud Driver"
 msgctxt "ulng.rsmfstbiiclouddrivertips"
 msgid "iCloud Drive"
 msgstr "iCloud雲碟"
 
 #: ulng.rsmfstbiiclouddrivertitle
-#, fuzzy
-#| msgid "iCloud Driver"
 msgctxt "ulng.rsmfstbiiclouddrivertitle"
 msgid "iCloud Drive"
 msgstr "iCloud雲碟"
@@ -11444,7 +11428,6 @@ msgid "Pack here..."
 msgstr "壓縮此處..."
 
 #: ulng.rsmnurestore
-#, fuzzy
 msgctxt "ulng.rsmnurestore"
 msgid "Restore"
 msgstr "還原"
@@ -11516,7 +11499,7 @@ msgstr ""
 
 #: ulng.rsmsgcannotchangetarget
 msgid "You cannot change a target location!"
-msgstr ""
+msgstr "無法更改目標位置！"
 
 #: ulng.rsmsgcannotcopymoveitself
 #, object-pascal-format
@@ -11916,10 +11899,9 @@ msgid ""
 msgstr ""
 
 #: ulng.rsmsgfilereadonly
-#, object-pascal-format, fuzzy
-#| msgid "File %s is marked as read-only. Delete it?"
+#, object-pascal-format
 msgid "File %s is marked as read-only/hidden/system. Delete it?"
-msgstr "檔案 %s 是唯讀檔。仍要刪除嗎？"
+msgstr "檔案 %s 是唯讀/隱藏/系統檔。仍要刪除嗎？"
 
 #: ulng.rsmsgfilereloadwarning
 msgid "Are you sure you want to reload the current file and lose the changes?"
@@ -11931,10 +11913,9 @@ msgid "The file size of \"%s\" is too big for destination file system!"
 msgstr "這個檔案【%s】的容量對於目標檔案系統來說太大!"
 
 #: ulng.rsmsgfolderexistsrwrt
-#, object-pascal-format, fuzzy
-#| msgid "Folder %s exists, overwrite?"
+#, object-pascal-format
 msgid "Folder %s exists, merge?"
-msgstr "資料夾 %s 已存在, 是否要覆蓋?"
+msgstr "資料夾 %s 已存在, 是否要合併?"
 
 #: ulng.rsmsgfollowsymlink
 #, object-pascal-format
@@ -12012,7 +11993,6 @@ msgid "Export selected"
 msgstr ""
 
 #: ulng.rsmsghotdirimportall
-#, fuzzy
 msgctxt "ulng.rsmsghotdirimportall"
 msgid "Import all!"
 msgstr "全部導入！"
@@ -12022,7 +12002,6 @@ msgid "Import Directory Hotlist - Select the entries you want to import"
 msgstr ""
 
 #: ulng.rsmsghotdirimportsel
-#, fuzzy
 msgctxt "ulng.rsmsghotdirimportsel"
 msgid "Import selected"
 msgstr "導入所選"
@@ -12066,7 +12045,6 @@ msgid "Enter location and filename of Directory Hotlist to restore"
 msgstr ""
 
 #: ulng.rsmsghotdirsimplecommand
-#, fuzzy
 msgctxt "ulng.rsmsghotdirsimplecommand"
 msgid "Command:"
 msgstr "指令:"
@@ -12448,8 +12426,6 @@ msgid "Select executable file for"
 msgstr ""
 
 #: ulng.rsmsgselectonlychecksumfiles
-#, fuzzy
-#| msgid "Please select only check sum files!"
 msgid "Please select only checksum files!"
 msgstr "請僅選擇驗證碼檔案!"
 
@@ -12638,7 +12614,6 @@ msgid "ERROR: Unexpected Tree View Menu usage!"
 msgstr ""
 
 #: ulng.rsmsgurl
-#, fuzzy
 msgid "URL:"
 msgstr "網址:"
 
@@ -12753,8 +12728,6 @@ msgid "Name"
 msgstr "名稱"
 
 #: ulng.rsmulrenfilenamestylelist
-#, fuzzy
-#| msgid "No change;UPPERCASE;lowercase;First Char Big;"
 msgid "No change;UPPERCASE;lowercase;First char uppercase;First Char Of Every Word Uppercase;"
 msgstr "不變更;大寫;小寫;首字大寫;每個單字首字大寫;"
 
@@ -12957,7 +12930,6 @@ msgid "Games"
 msgstr ""
 
 #: ulng.rsopenwithgraphics
-#, fuzzy
 msgctxt "ulng.rsopenwithgraphics"
 msgid "Graphics"
 msgstr "圖像"
@@ -12971,7 +12943,6 @@ msgid "Multimedia"
 msgstr ""
 
 #: ulng.rsopenwithnetwork
-#, fuzzy
 msgctxt "ulng.rsopenwithnetwork"
 msgid "Network"
 msgstr "網路"
@@ -12981,7 +12952,6 @@ msgid "Office"
 msgstr ""
 
 #: ulng.rsopenwithother
-#, fuzzy
 msgctxt "ulng.rsopenwithother"
 msgid "Other"
 msgstr "其他"
@@ -12995,7 +12965,6 @@ msgid "Settings"
 msgstr ""
 
 #: ulng.rsopenwithsystem
-#, fuzzy
 msgctxt "ulng.rsopenwithsystem"
 msgid "System"
 msgstr "系統"
@@ -13009,20 +12978,16 @@ msgid "Aborted"
 msgstr "已放棄"
 
 #: ulng.rsopercalculatingchecksum
-#, fuzzy
-#| msgid "Calculating check sum"
 msgid "Calculating checksum"
 msgstr "正在計算驗證碼"
 
 #: ulng.rsopercalculatingchecksumin
-#, object-pascal-format, fuzzy
-#| msgid "Calculating check sum in \"%s\""
+#, object-pascal-format
 msgid "Calculating checksum in \"%s\""
 msgstr "正在【%s】計算驗證碼"
 
 #: ulng.rsopercalculatingchecksumof
-#, object-pascal-format, fuzzy
-#| msgid "Calculating check sum of \"%s\""
+#, object-pascal-format
 msgid "Calculating checksum of \"%s\""
 msgstr "正在計算【%s】的驗證碼"
 
@@ -13208,20 +13173,16 @@ msgid "Testing \"%s\""
 msgstr "正在測試【%s】"
 
 #: ulng.rsoperverifyingchecksum
-#, fuzzy
-#| msgid "Verifying check sum"
 msgid "Verifying checksum"
 msgstr "正在校驗驗證碼"
 
 #: ulng.rsoperverifyingchecksumin
-#, object-pascal-format, fuzzy
-#| msgid "Verifying check sum in \"%s\""
+#, object-pascal-format
 msgid "Verifying checksum in \"%s\""
 msgstr "正在【%s】校驗驗證碼"
 
 #: ulng.rsoperverifyingchecksumof
-#, object-pascal-format, fuzzy
-#| msgid "Verifying check sum of \"%s\""
+#, object-pascal-format
 msgid "Verifying checksum of \"%s\""
 msgstr "正在校驗【%s】的驗證碼"
 
@@ -13606,7 +13567,6 @@ msgid "File associations"
 msgstr "檔案關聯"
 
 #: ulng.rsoptionseditorfilenewfiletypes
-#, fuzzy
 msgctxt "ulng.rsoptionseditorfilenewfiletypes"
 msgid "New"
 msgstr "新增"
@@ -13863,10 +13823,8 @@ msgid "&Files;Di&rectories;Files a&nd Directories"
 msgstr "檔案 (&F);資料夾 (&R);檔案及資料夾 (&N)"
 
 #: ulng.rsoptsearchopt
-#, fuzzy
-#| msgid "&Hide filter panel when not focused"
 msgid "Ignore &diacritics and ligatures;&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "當不在焦點時隱藏篩選面板 (&H)"
+msgstr "忽略變音和連字 (&D);當不在焦點時隱藏篩選面板 (&H);保持設定以供下次會話使用"
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
@@ -13877,10 +13835,8 @@ msgid "sort by name and show first;sort like files and show first;sort like file
 msgstr "依名稱排序並優先顯示;依類似檔案排序並優先顯示;依類似檔案排序"
 
 #: ulng.rsoptsortmethod
-#, fuzzy
-#| msgid "Alphabetical, considering accents;Natural sorting: alphabetical and numbers"
 msgid "Alphabetical, considering accents;Alphabetical with special characters sort;Natural sorting: alphabetical and numbers;Natural with special characters sort"
-msgstr "依字母順序排序, 考慮重音;依自然順序排序, 考慮字母和數字"
+msgstr "按字母順序：考慮重音;按字母順序：考慮特殊字符;按自然順序排序：考慮字母和數字;按自然順序排序：考慮特殊字符"
 
 #: ulng.rsopttabsposition
 msgid "Top;Bottom;"
@@ -14134,7 +14090,6 @@ msgid "Column"
 msgstr ""
 
 #: ulng.rssimplewordcommand
-#, fuzzy
 msgctxt "ulng.rssimplewordcommand"
 msgid "Command"
 msgstr "指令"
@@ -14607,7 +14562,6 @@ msgid "Image Type"
 msgstr ""
 
 #: ulng.rsviewnewsize
-#, fuzzy
 msgctxt "ulng.rsviewnewsize"
 msgid "New Size"
 msgstr "新的大小"

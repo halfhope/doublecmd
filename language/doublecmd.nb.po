@@ -1106,6 +1106,16 @@ msgstr "&Lagr som..."
 msgid "Save As"
 msgstr "Lagr som"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Zoom inn"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Zoom ut"
+
 #: tfrmeditor.caption
 msgctxt "tfrmeditor.caption"
 msgid "Editor"
@@ -2524,6 +2534,16 @@ msgstr "&Hent markering fra fil..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "Hent faner fra fil"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Zoom inn"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Zoom ut"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7183,6 +7203,11 @@ msgstr "Skrivemerket følger ikke lenger musepila"
 msgid "By clic&king on icon"
 msgstr "&Ved klikk på ikon"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7195,6 +7220,12 @@ msgstr "Rulling med musehjul"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Valg"
+
+#: tfrmoptionsmouse.gbzoom.caption
+#, fuzzy
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Zoom"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9981,6 +10012,7 @@ msgid "&Wrap text"
 msgstr ""
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Zoom"
 
@@ -9990,7 +10022,6 @@ msgid "Zoom In"
 msgstr "Zoom inn"
 
 #: tfrmviewer.actzoomin.hint
-#, fuzzy
 msgctxt "tfrmviewer.actzoomin.hint"
 msgid "Zoom In"
 msgstr "Zoom inn"
@@ -10001,7 +10032,6 @@ msgid "Zoom Out"
 msgstr "Zoom ut"
 
 #: tfrmviewer.actzoomout.hint
-#, fuzzy
 msgctxt "tfrmviewer.actzoomout.hint"
 msgid "Zoom Out"
 msgstr "Zoom ut"

@@ -1102,6 +1102,16 @@ msgstr "名前を付けて保存(&A)…"
 msgid "Save As"
 msgstr "名前を付けて保存"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "ズームイン"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "ズームアウト"
+
 #: tfrmeditor.caption
 msgctxt "TFRMEDITOR.CAPTION"
 msgid "Editor"
@@ -2509,6 +2519,16 @@ msgstr "ファイルから選択した項目を開く(&L)…"
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "ファイルからタブを読み込む(&L)"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "ズームイン"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "ズームアウト"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7089,6 +7109,11 @@ msgstr "テキスト カーソルがマウス カーソルの後に続かなく�
 msgid "By clic&king on icon"
 msgstr "アイコンをクリックにより(&k)"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7101,6 +7126,12 @@ msgstr "スクロール中"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "選択"
+
+#: tfrmoptionsmouse.gbzoom.caption
+#, fuzzy
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "ズーム"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9721,6 +9752,7 @@ msgid "&Wrap text"
 msgstr ""
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "ズーム"
 

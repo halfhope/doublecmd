@@ -1092,6 +1092,16 @@ msgstr "Сачувај &као..."
 msgid "Save As"
 msgstr "Сачувај као"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Приближи"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Удаљи"
+
 #: tfrmeditor.caption
 msgctxt "TFRMEDITOR.CAPTION"
 msgid "Editor"
@@ -2499,6 +2509,16 @@ msgstr "&Учитај избор из датотеке..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "&Учитај листове из датотеке"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Приближи"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Удаљи"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7077,6 +7097,11 @@ msgstr "Показивач писања не прати више показив�
 msgid "By clic&king on icon"
 msgstr "Кликом на сличицу"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7089,6 +7114,11 @@ msgstr "Клизање"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Избор"
+
+#: tfrmoptionsmouse.gbzoom.caption
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Увећање"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9713,6 +9743,7 @@ msgid "&Wrap text"
 msgstr "&Преламај писмо"
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Увећање"
 

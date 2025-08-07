@@ -1102,6 +1102,16 @@ msgstr "Зберегти &як.."
 msgid "Save As"
 msgstr "Зберегти як"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Збільшити"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Зменшити"
+
 #: tfrmeditor.caption
 msgctxt "tfrmeditor.caption"
 msgid "Editor"
@@ -2514,6 +2524,17 @@ msgstr "Завантажити виділенння з ф&айлу..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "Завантажити вкладки &з файлу"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Збільшити"
+
+#: tfrmmain.actmainfontzoomout.caption
+#, fuzzy
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Зменшити"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7137,6 +7158,11 @@ msgstr "Текстовий курсор не слідкує за курсоро�
 msgid "By clic&king on icon"
 msgstr "Клацан&ням по значку"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7149,6 +7175,11 @@ msgstr "Прокрутка"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Виділення"
+
+#: tfrmoptionsmouse.gbzoom.caption
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Збільшення"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9816,6 +9847,7 @@ msgid "&Wrap text"
 msgstr ""
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Збільшення"
 
@@ -9825,7 +9857,6 @@ msgid "Zoom In"
 msgstr "Збільшити"
 
 #: tfrmviewer.actzoomin.hint
-#, fuzzy
 msgctxt "tfrmviewer.actzoomin.hint"
 msgid "Zoom In"
 msgstr "Збільшити"
@@ -9836,7 +9867,6 @@ msgid "Zoom Out"
 msgstr "Зменшити"
 
 #: tfrmviewer.actzoomout.hint
-#, fuzzy
 msgctxt "tfrmviewer.actzoomout.hint"
 msgid "Zoom Out"
 msgstr "Зменшити"

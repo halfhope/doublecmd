@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Double Commander 1.1.0 alpha\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-15 11:15+0300\n"
-"PO-Revision-Date: 2025-06-26 07:26+0200\n"
+"PO-Revision-Date: 2025-06-29 03:29+0200\n"
 "Last-Translator:  ㋡  <braass@mail.de>\n"
 "Language-Team: Deutsch <braass@mail.de>\n"
 "Language: de\n"
@@ -1075,6 +1075,16 @@ msgstr "Speichern &unter …"
 #: tfrmeditor.actfilesaveas.hint
 msgid "Save As"
 msgstr "Datei unter anderem Namen speichern"
+
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Vergrößern"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Verkleinern"
 
 #: tfrmeditor.caption
 msgctxt "tfrmeditor.caption"
@@ -2452,6 +2462,16 @@ msgstr "Auswah&l aus Datei laden …"
 msgid "&Load Tabs from File"
 msgstr "&Lade Tabs aus Datei"
 
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Vergrößern"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Verkleinern"
+
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
 msgstr "&Verzeichnis erstellen"
@@ -3304,7 +3324,7 @@ msgstr "Groß-/Kleinschreibung beachten"
 
 #: tfrmmaskinputdlg.chkignoreaccentsandligatures.caption
 msgid "Ignore accents and ligatures"
-msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ … und ß, æ, œ) ignorieren"
+msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ und ß, æ, œ) ignorieren"
 
 #: tfrmmaskinputdlg.lblattributes.caption
 msgid "Attri&butes:"
@@ -6903,6 +6923,11 @@ msgstr "und der Textcursor folgt nicht mehr dem Mauszeiger"
 msgid "By clic&king on icon"
 msgstr "auch durch klicken auf das Icon des Elements"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -6915,6 +6940,12 @@ msgstr "Bildlauf"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Auswahl/Markieren"
+
+#: tfrmoptionsmouse.gbzoom.caption
+#, fuzzy
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Zoom"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -8066,7 +8097,7 @@ msgstr "Wofür das Baumansicht-Menü verwenden:"
 
 #: tfrmoptionstreeviewmenu.lblnote.caption
 msgid "*NOTE: Regarding the options like the case sensitivity, ignoring accents or not, these are saved and restored individually for each context from a usage and session to another."
-msgstr "*HINWEIS: Die Optionen für die Groß-/Kleinschreibung und Diakritika und Ligaturen werden für jeden Kontext einzeln gespeichert und von einer Sitzung zur nächsten wiederhergestellt."
+msgstr "*HINWEIS: Die Optionen für die Groß-/Kleinschreibung und Diakritika und Ligaturen werden für jeden Kontext einzeln gespeichert und bei der nächsten Verwendung wiederhergestellt, bis der Double Commander geschlossen wird."
 
 #: tfrmoptionstreeviewmenu.lbluseindirectoryhotlist.caption
 msgid "With Directory Hotlist:"
@@ -8315,7 +8346,7 @@ msgstr "Ďï"
 
 #: tfrmquicksearch.sbdiacritics.hint
 msgid "Diacritics and ligatures"
-msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ … und ß, æ, œ)"
+msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ und ß, æ, œ)"
 
 #: tfrmquicksearch.sbdirectories.caption
 msgid "D"
@@ -9060,7 +9091,7 @@ msgstr "Komplett ausgeklappt"
 
 #: tfrmtreeviewmenu.pmiignoreaccents.caption
 msgid "Search ignore accents and ligatures"
-msgstr "Akzente und Ligaturen bei Suche ignorieren"
+msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ und ß, æ, œ) bei Suche ignorieren"
 
 #: tfrmtreeviewmenu.pminotcasesensitive.caption
 msgid "Search is not case sensitive"
@@ -9068,7 +9099,7 @@ msgstr "Groß-/Kleinschreibung bei Suche ignorieren"
 
 #: tfrmtreeviewmenu.pminotignoreaccents.caption
 msgid "Search is strict regarding accents and ligatures"
-msgstr "Akzente und Ligaturen bei Suche beachten"
+msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ und ß, æ, œ) bei Suche beachten"
 
 #: tfrmtreeviewmenu.pminotshowwholebranchifmatch.caption
 msgid "Don't show the branch content \"just\" because the searched string is found in the branche name"
@@ -9482,6 +9513,7 @@ msgid "&Wrap text"
 msgstr "Text umbrechen"
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Zoom"
 
@@ -10954,15 +10986,11 @@ msgid "HorzSplit"
 msgstr "Horizontal geteilt"
 
 #: ulng.rsmfstbiiclouddrivertips
-#, fuzzy
-#| msgid "iCloud Driver"
 msgctxt "ulng.rsmfstbiiclouddrivertips"
 msgid "iCloud Drive"
 msgstr "iCloud Drive ist der Cloud-Speicher von Apple. Vergleichbar mit z.B. Dropbox, OneDrive oder Google Drive"
 
 #: ulng.rsmfstbiiclouddrivertitle
-#, fuzzy
-#| msgid "iCloud Driver"
 msgctxt "ulng.rsmfstbiiclouddrivertitle"
 msgid "iCloud Drive"
 msgstr "iCloud Drive"
@@ -12496,7 +12524,7 @@ msgstr "Unverändert;ALLES GROẞGESCHRIEBEN;alles kleingeschrieben;Erster buchs
 
 #: ulng.rsmulrenlastpreset
 msgid "[The last used]"
-msgstr "»Das zuletzt verwendete«"
+msgstr "<Wie zuletzt verwendet>"
 
 #: ulng.rsmulrenlaunchbehavioroptions
 msgid "Last masks under [Last One] preset;Last preset;New fresh masks"
@@ -13573,7 +13601,7 @@ msgstr "&Dateien;Ve&rzeichnisse;Dateien u&nd Verzeichnisse"
 
 #: ulng.rsoptsearchopt
 msgid "Ignore &diacritics and ligatures;&Hide filter panel when not focused;Keep saving setting modifications for next session"
-msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ … und ß, æ, œ) ignorieren;Filterdialog verbergen, wenn im Hintergrund;Änderungen der Einstellungen für die nächste Sitzung speichern"
+msgstr "Diakritika und Ligaturen (z.B. `˛´¸¨ˍˆ ˇ und ß, æ, œ) ignorieren;Filterdialog verbergen, wenn im Hintergrund;Änderungen der Einstellungen für die nächste Verwendung speichern"
 
 #: ulng.rsoptsortcasesens
 msgid "not case sensitive;according to locale settings (aAbBcC);first upper then lower case (ABCabc)"
@@ -13585,7 +13613,7 @@ msgstr "Nach Namen sortieren und zuerst anzeigen;Wie Dateien sortieren und zuers
 
 #: ulng.rsoptsortmethod
 msgid "Alphabetical, considering accents;Alphabetical with special characters sort;Natural sorting: alphabetical and numbers;Natural with special characters sort"
-msgstr "Alphabetisch (= Ziffern einzeln -> 19 vor 2), Akzente beachten -> aàáâäbcd;Alphabetisch, Sonderzeichen beachten -> (@§€19.20.3.4abcd;Natürliche Sortierung: alphabetisch und mehrstellige Zahlen nach ihrem Wert -> 8.9.10.11abcd;Natürliche Sortierung, Sonderzeichen beachten -> (@§€8.9.10.11abcd"
+msgstr "Alphabetisch (= Ziffern einzeln -> 19 vor 2), Diakritika beachten -> aàáâäbcd;Alphabetisch, Sonderzeichen beachten -> (@§€19.20.3.4abcd;Natürliche Sortierung: alphabetisch und mehrstellige Zahlen nach ihrem Wert -> 8.9.10.11abcd;Natürliche Sortierung, Sonderzeichen beachten -> (@§€8.9.10.11abcd"
 
 #: ulng.rsopttabsposition
 msgid "Top;Bottom;"

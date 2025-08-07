@@ -1090,6 +1090,16 @@ msgstr "Uložit & jako..."
 msgid "Save As"
 msgstr "Uložit jako"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Oddálit"
+
 #: tfrmeditor.caption
 msgctxt "TFRMEDITOR.CAPTION"
 msgid "Editor"
@@ -2467,6 +2477,16 @@ msgstr "&Načíst výběr ze souboru..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "Načíst zá&ložky ze souboru"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Oddálit"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -6938,6 +6958,11 @@ msgstr "Označení nebude následovat kurzor myši"
 msgid "By clic&king on icon"
 msgstr "Kliknutím na ikonu"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -6950,6 +6975,12 @@ msgstr "Rolování"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Výběr"
+
+#: tfrmoptionsmouse.gbzoom.caption
+#, fuzzy
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Zvětšení"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9522,6 +9553,7 @@ msgid "&Wrap text"
 msgstr ""
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Zvětšení"
 

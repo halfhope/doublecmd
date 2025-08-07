@@ -1094,6 +1094,16 @@ msgstr "Αποθήκευση ως..."
 msgid "Save As"
 msgstr "Αποθήκευση ως"
 
+#: tfrmeditor.actzoomin.caption
+msgctxt "tfrmeditor.actzoomin.caption"
+msgid "Zoom In"
+msgstr "Μεγέθυνση"
+
+#: tfrmeditor.actzoomout.caption
+msgctxt "tfrmeditor.actzoomout.caption"
+msgid "Zoom Out"
+msgstr "Μίκρυνση"
+
 #: tfrmeditor.caption
 msgctxt "TFRMEDITOR.CAPTION"
 msgid "Editor"
@@ -2500,6 +2510,16 @@ msgstr "Φόρτωση Επιλογής από το Αρχείο..."
 #: tfrmmain.actloadtabs.caption
 msgid "&Load Tabs from File"
 msgstr "Φόρτωση Καρτελών από το Αρχείο"
+
+#: tfrmmain.actmainfontzoomin.caption
+msgctxt "tfrmmain.actmainfontzoomin.caption"
+msgid "Zoom In"
+msgstr "Μεγέθυνση"
+
+#: tfrmmain.actmainfontzoomout.caption
+msgctxt "tfrmmain.actmainfontzoomout.caption"
+msgid "Zoom Out"
+msgstr "Μίκρυνση"
 
 #: tfrmmain.actmakedir.caption
 msgid "Create &Directory"
@@ -7067,6 +7087,11 @@ msgstr "Ο κέρσορας κειμένου δεν ακολουθεί πλέο�
 msgid "By clic&king on icon"
 msgstr "Κάνοντας κλικ στο εικονίδιο"
 
+#: tfrmoptionsmouse.chkzoomwithctrlwheel.caption
+msgctxt "tfrmoptionsmouse.chkzoomwithctrlwheel.caption"
+msgid "Zoom with Ctrl + Scroll Wheel"
+msgstr ""
+
 #: tfrmoptionsmouse.gbopenwith.caption
 msgctxt "tfrmoptionsmouse.gbopenwith.caption"
 msgid "Open with"
@@ -7079,6 +7104,12 @@ msgstr "Κύλιση"
 #: tfrmoptionsmouse.gbselection.caption
 msgid "Selection"
 msgstr "Επιλογή"
+
+#: tfrmoptionsmouse.gbzoom.caption
+#, fuzzy
+msgctxt "tfrmoptionsmouse.gbzoom.caption"
+msgid "Zoom"
+msgstr "Μεγέθυνση"
 
 #: tfrmoptionsmouse.lblmousemode.caption
 msgid "&Mode:"
@@ -9701,6 +9732,7 @@ msgid "&Wrap text"
 msgstr "Μάζεμα κειμένου"
 
 #: tfrmviewer.actzoom.caption
+msgctxt "tfrmviewer.actzoom.caption"
 msgid "Zoom"
 msgstr "Μεγέθυνση"
 
